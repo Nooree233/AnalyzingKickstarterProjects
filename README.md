@@ -7,7 +7,7 @@ and transform data using SQL functions. This project is from the DataQuest educa
 
 Objective: Analyze Kickstarter data using SQL to identify key factors contributing to campaign success and inform product launch decisions.
 
-The product team is considering launching a campaign on Kickstarter to test the viability of some offerings. You've been asked to pull data that will help the team understand what might influence the success of a campaign. The data source is a [selection of fields from Kaggle.]: https://www.kaggle.com/datasets/kemical/kickstarter-projects
+The product team is considering launching a campaign on Kickstarter to test the viability of some offerings. You've been asked to pull data that will help the team understand what might influence the success of a campaign. The data source is a [selection of fields from Kaggle.](https://www.kaggle.com/datasets/kemical/kickstarter-projects)
 
 Specifically, we'll answer the following questions:
 
