@@ -16,10 +16,17 @@ Which projects fail?
 To get you started, here are the definitions of the columns in this data:
 
 ID: Kickstarter project ID
+
 name: Name of project
+
 category: Category of project
+
 main_category: Main category of project
+
 goal: Fundraising goal
+
 pledged: Amount pledged
+
 state: State of project (successful, canceled, etc.)
+
 backers: Number of project backers
