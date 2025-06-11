@@ -1,0 +1,16 @@
+  SELECT main_category, backers, pledged, goal,
+         pledged / goal AS pct_pledged, state,
+         CASE 
+         WHEN pledged/goal >= 1 THEN 'Fully funded'
+         WHEN pledged/goal BETWEEN .75 AND 1 THEN 'Nearly funded'
+         WHEN pledged/goal < .75 THEN 'Not nearly funded'
+         END AS funding_status
+    FROM ksprojects
+   WHERE state IN ('failed')
+     AND backers >= 100 AND pledged >= 20000
+ORDER BY main_category, pct_pledged DESC
+   LIMIT 10;
+/*Projects are failing because they are not fully funded and they do not have enough backers. 
+As art is a competitive field to join, it needs more funding to cover the expenses of making 
+stunning visuals and more backers to bring them to life. Without them, the campaign will not 
+succeed in the art category.*/
